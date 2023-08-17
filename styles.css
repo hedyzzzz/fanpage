@@ -1,0 +1,95 @@
+nav {
+    text-align: center;
+  }
+
+  .nav-container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    background-image: url(https://s.yimg.com/ny/api/res/1.2/6R7Zz9efcrqZBO7XhoGFUg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTYyMDtoPTQyMA--/https://media.zenfs.com/en-US/homerun/tvline.com/9e1b904c86aa41259c78c9a213fecefc);
+    border-radius: 25px;
+    padding: 20px;
+  }
+
+  .nav-container img {
+    height: 100px; /* Adjust the width of the image as needed */
+    margin-right: 10px; /* Add spacing between the image and text */
+  }
+
+   a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    font-size: 30px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    border-radius: 25px;
+  }
+
+  a:hover {
+    border-radius: 25px;
+    color: rgb(8, 6, 6);
+    background-color:darkcyan; /* Change the background color on hover */
+  }
+
+  /* Hero Section */
+  .hero-section{
+    position: relative;
+    height: 500px;
+  }
+
+  .hero-background{
+    width:100%;
+    height: 100%;
+    background-image: url('https://www.thefactsite.com/wp-content/uploads/2012/03/petergriffin-family-guy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+  }
+
+  .hero-content{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .hero-content h1{
+    color: darkred;
+    font-size: 50px;
+  }
+
+
+  img{
+    height: 200px;
+  }
+  .row-1{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+.col-1, .col-2{
+    flex: 1;
+    max-width: 500px;
+    padding: 10px;
+ }
+
+
+/* Fan art gallery section */
+#fan-art-gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.gallery{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgba(26, 156, 26, 0.643);
+}
+.gallery-row-1 img,
+.gallery-row-2 img{
+    max-width: 250px;
+    margin: 10px;
+    height: 300px;
+    border-radius: 25px;
+}
